@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -20,6 +21,13 @@ figure,
 footer,
 header,
 hgroup,
+review {
+  font-size: 2em;
+}
+reviewloc {
+  font-size: 2em;
+  font-color: "#42c2f4";
+}
 main,
 menu,
 nav,
@@ -1116,6 +1124,35 @@ img {
   vertical-align: middle;
 }
 .img-responsive,
+.imgBox,
+
+.imgBox:hover
+{
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+/*.showMeOnImageHover {
+    background-color:#FFF;
+    font-family:Arial;
+    color:white;
+    text-align:center;
+    display:table-cell;
+    position:absolute;
+}
+.showMeOnImageHover>.contentHolder {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin:10px;
+    font-size:30px;
+}*/
+/*.showMeOnImageHover .title {
+    font-size:30px;
+}
+.showMeOnImageHover .content {
+    font-size: 16px;
+}*/
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
@@ -2248,6 +2285,8 @@ pre code {
     margin-left: 0;
   }
 }
+
+
 table {
   background-color: transparent;
 }

@@ -16,6 +16,11 @@
 
     <!-- Custom CSS -->
     <link href="css/portfolio-item.css" rel="stylesheet">
+    <link href="css/imagehover.css" rel="stylesheet">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>  
+    <!-- Bootstrap Core JavaScript -->
+    <!-- // <script src="js/hover.js"></script> -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,15 +71,15 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
         <!-- <h1 class="page-header"> -->
-            <div class="col-sm-6">
-                    <img src="http://jhmatthews.github.io/aida/images/banner_grab.png" 
+            <div class="col-lg-8">
+                    <img class="img-responsive" src="http://jhmatthews.github.io/aida/images/banner_grab.png" 
                          width="700">                        
                     </img>
             </div>
         <!-- </h1> -->
         </div>
         <!-- /.row -->
-        <br>
+        <br><br><br>
 
         <!-- Portfolio Item Row -->
         <div class="row">
@@ -82,62 +87,84 @@
             <div class="col-md-6">
                 <img class="img-responsive" src="img/full_heal_cover.png" alt="">
             </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5" style="font-size: 16px">
+                <!-- <h3>Press for Full Heal</h3> -->
+                <br><br>
+                <p>
+                “8 life-affirming tracks of sublime dreamy youthful post-rock.”<br>
+                <font color="#5c1aba">The Independent</font>
+                </p><br><br>
 
-            <div class="col-md-6">
-                <h3>Press for Full Heal</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3>Project Details</h3>
-                <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
-                </ul>
+                <p>
+                "Full Heal is truly a joyful effort, and to craft something so enjoyable to listen to is a masterful achievement. In a genre dripping with melancholy, the optimistic 48 minutes you spend with Waking Aida is something very special."<br>
+                <font color="#5c1aba">Echoes & Dust</font>
+                </p><br><br>
+
+                <p>
+                “Waking Aida have not only delivered the goods with Full Heal, they’ve raised the bar. A stunning album in every conceivable way, you can’t help but to be awestruck. Wonderful.”<br>
+                <font color="#5c1aba">10/10, Alt Dialogue</font>
+                </p><br><br>
+
+                <p style="font-size: 17px; font-weight: bold; text-align: center;">
+                <a href="http://wakingaida.bandcamp.com">
+                Order CD / Vinyl / T-Shirt Bundles
+                </a>
+                </p>
+                
             </div>
 
         </div>
 
         <br><br><br>
         <div class="row">
-            <div class="col-sm-12" align="center">
+            <div class="col-xs-3" align="center"></div>
+
+            <div class="col-xs-1">
                 <a href="http://www.facebook.com/wakingaida">
-                <img hspace="5" width="32" height="32" src="http://jhmatthews.github.io/aida/images/facebook.png" alt="Like Us on Facebook"> 
-                </a>
+                <img src="http://jhmatthews.github.io/aida/images/facebook.png" alt="Like Us on Facebook" class="img-responsive"> 
+                </a></div>
+
+            <div class="col-xs-1">
                 <a href="http://www.twitter.com/wakingaida">
-                <img hspace="5" width="32" height="32" src="http://jhmatthews.github.io/aida/images/twitter.png" alt="Follow Us on Twitter"> 
-                </a>
+                <img src="http://jhmatthews.github.io/aida/images/twitter.png" alt="Follow Us on Twitter" class="img-responsive">  
+                </a></div>
+
+            <div class="col-xs-1">
                 <a href="https://www.youtube.com/channel/UCdBokIPVR1y94T0dY8KMVEQ">
-                <img hspace="5" width="32" height="32" src="http://jhmatthews.github.io/aida/images/youtube.png" alt="Watch us on Youtube"> 
-                </a>
+                <img src="http://jhmatthews.github.io/aida/images/youtube.png" alt="Watch us on Youtube" class="img-responsive">  
+                </a></div>
+
+            <div class="col-xs-1">
                 <a href="https://soundcloud.com/waking-aida"> 
-                <img hspace="5" width="32" height="32" src="http://jhmatthews.github.io/aida/images/soundcloud.png" alt="Listen to our Soundcloud">
-                </a>
+                <img src="http://jhmatthews.github.io/aida/images/soundcloud.png" alt="Listen to our Soundcloud" class="img-responsive"> 
+                </a></div>
+
+            <div class="col-xs-1">
                 <a href="https://wakingaida.bandcamp.com"> 
-                <img hspace="5" width="32" height="32" src="http://jhmatthews.github.io/aida/images/bandcamp.png" alt="Listen to our Bandcamp">
+                <img src="http://jhmatthews.github.io/aida/images/bandcamp.png" alt="Listen to our Bandcamp" class="img-responsive"> 
+                </a></div>
+            <div class="col-xs-1">
+                <a href="https://play.spotify.com/artist/0msFH3bBUxrdUpEFqf2ZuO"><img src="http://jhmatthews.github.io/aida/images/spotify.png" alt="Listen to our Spotify" class="img-responsive">  
                 </a>
-                <a href="https://play.spotify.com/artist/0msFH3bBUxrdUpEFqf2ZuO"><img width="32" height="32" src="http://jhmatthews.github.io/aida/images/spotify.png" alt="Listen to our Spotify"> 
-                </a>
-                <br><br><br>
+            </div>
+            <div class="col-xs-3" align="center">
             </div>
         </div>
+
+        <br><br><br>
 
         <!-- /.row -->
         <div class="row">
-            <div class="col-lg-6">
-                <h3 class="page-header">Listen</h3>
-            </div>
 
-            <div class="col-lg-6">
-                <h3 class="page-header">Tour Dates</h3>
-            </div>
-        </div>
 
-        <div class="row">
             <div class="col-sm-6">
+                 <h3 class="page-header">Listen</h3>
             <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=895886421/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://wakingaida.bandcamp.com/album/full-heal">Full Heal by Waking Aida</a></iframe>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-sm-6">
+                <h3 class="page-header">Tour Dates</h3>
                 <script type='text/javascript' src='http://widget.bandsintown.com/javascripts/bit_widget.js'></script>
 
                 <a href="http://www.bandsintown.com/Waking%20Aida" class="bit-widget-initializer" data-artist="Waking Aida">Waking Aida Tour Dates</a>
@@ -148,34 +175,50 @@
 
 
         <!-- Related Projects Row -->
-        <div class="row">
+        <div class="row" height="80%">
 
             <div class="col-lg-12">
-                <h3 class="page-header">Discography</h3>
+                <h3 class="page-header">Media and Links</h3>
+            </div>
+            
+            <div class="col-sm-3 col-xs-6">
+                <figure class="imghvr-fade">
+                    <img src="img/waking-aida-eschaton.jpg">
+                        <figcaption>
+                            Eschaton
+                        </figcaption>
+                <a href="eschaton.html"></a>
+            </figure>
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <a href="eschaton.html">
-                    <img class="img-responsive portfolio-item" src="img/waking-aida-eschaton.jpg" alt="">
-                </a>
+                <figure class="imghvr-fade">
+                    <img src="img/fume.png">
+                        <figcaption>
+                            Videos
+                        </figcaption>
+                <a href="videos.html"></a>
+            </figure>
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
+                <figure class="imghvr-fade">
+                    <img src="https://f4.bcbits.com/img/0004981695_10.jpg">
+                        <figcaption>
+                            Robot Needs Home
+                        </figcaption>
+                <a href="eschaton.html"></a>
+            </figure>
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
+                <figure class="imghvr-fade">
+                    <img src="img/explode-example.jpg">
+                        <figcaption>
+                            Remixes
+                        </figcaption>
+                <a href="#"></a>
+            </figure>
             </div>
 
         </div>
@@ -187,7 +230,15 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
+                    <p>
+                    <h5>Contact Us</h5>
+                    Management: John Helps<br>
+                    Label: Robot Needs Home<br>
+                    Band: wakingaida [at] live.co.uk<br>
+                    </p>
+                    
                     <p>Copyright &copy; Waking Aida 2016</p>
+
                 </div>
             </div>
             <!-- /.row -->
@@ -201,6 +252,8 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+
 
 </body>
 
