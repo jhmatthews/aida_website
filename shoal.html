@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>Waking Aida</title>
-    <link rel="shortcut icon" href="img/favicon-fh.png">
+    <link rel="shortcut icon" href="img/shoal_favicon.png">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,6 +34,19 @@
 
 <body style="background-image: url('img/shoal.jpg');">
 
+    <style type="text/css">
+    @font-face {
+        font-family: "My Custom Font";
+        src: url(fonts/moonflowerbold.ttf) format("truetype");
+    }
+    p.customfont { 
+        font-family: "My Custom Font", Verdana, Tahoma;
+        text-align: center;
+        font-size: 40px;
+        color:  #020152;
+    }
+    </style>
+
     <!-- Page Content -->
     <div class="container">
 
@@ -42,30 +55,33 @@
 
         <!-- Portfolio Item Row -->
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8" style="font-size: 16px">
-                <!-- <h3>Press for Full Heal</h3> -->
-                <br><br>
-                <br><br>
-                    <style type="text/css">
-                    @font-face {
-                        font-family: "My Custom Font";
-                        src: url(fonts/moonflowerbold.ttf) format("truetype");
-                    }
-                    p.customfont { 
-                        font-family: "My Custom Font", Verdana, Tahoma;
-                        text-align: center;
-                        font-size: 40px;
-                    }
-                    </style>
-                    <p class="customfont" style="font-size: 100px;">Waking Aida - Shoal</p> 
-                    <p class="customfont">New Single out 10/02/2017.<br>
-                    Pre-order here with Limited Edition prints.</p>
-
-                
+            <!-- <div class="col-md-1"></div> -->
+            <div class="col-md-6 hidden-md hidden-sm hidden-xs" style="font-size: 16px">
+                    <p class="customfont" style="font-size: 100px;">
+                    Waking Aida<br>
+                    Shoal</p> 
+                    <p class="customfont">New Single out Friday 10th Feb.<br>
+                    </p>    
             </div>
-            <div class="col-md-2"></div>
 
+            <div class="col-md-6 hidden-lg" style="font-size: 16px">
+                <!-- <h3>Press for Full Heal</h3> -->
+                    <p class="customfont" style="font-size: 100px;">
+                    Shoal
+                    </p> 
+                    <p class="customfont">New Single out Friday 10th Feb.
+                    </p>    
+            </div>
+
+            <div class="col-md-5">
+            <br><br>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/304364244%3Fsecret_token%3Ds-j5vDN&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+            <br><br>
+            <p class="customfont">Pre-order on 
+            <a href="https://wakingaida.bandcamp.com">
+            <img src="img/bandcamp.gif" class="imghvr-fade"  width="40%"></p></a>
+            </div>
+            <div class="col-md-1"></div>
         </div>
 
         <div class="row hidden-xs hidden-sm"><br><br><br></div>
@@ -109,40 +125,31 @@
         <div class="row hidden-xs  hidden-sm"><br><br><br></div>
 
         <!-- /.row -->
-        <div class="row">
-
-
-
-            <div class="col-sm-6">
-                 <h3 class="page-header">Listen</h3>
-            <!--iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=895886421/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://wakingaida.bandcamp.com/album/full-heal">Full Heal by Waking Aida</a></iframe-->
-            <iframe style="border: 0; width: 100%; height: 406px;" src="https://bandcamp.com/EmbeddedPlayer/album=895886421/size=large/bgcol=ffffff/linkcol=5c1aba/artwork=small/transparent=true/" seamless><a href="http://wakingaida.bandcamp.com/album/full-heal">Full Heal by Waking Aida</a></iframe>
-            </div>
-
-            <div class="col-sm-6">
-                <h3 class="page-header" style="text-color: #FFF">Tour Dates</h3>
-                <!-- <a href="tour.html" style="font-weight: bold;">Tour Details and Tickets</a> -->
-                <!-- <br> -->
-                <!--script type='text/javascript' 
-                src='https://widget.bandsintown.com/javascripts/bit_widget.js'>
-                </script-->
-
-               <!--  <a href="https://www.bandsintown.com/Waking%20Aida" class="bit-widget-initializer" data-artist="Waking Aida" style="font-weight: bold;">Waking Aida on Bands In Town</a> -->
-                <!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script-->
-                <a href="tour.html">
-                    <img width="50%" class="img-responsive" align="center" 
-                    src="img/april_tour_a4_poster.jpg" width="100%">                        
-                    </img></a>               
-            </div>
-        </div>
-
-
 
         <!-- Related Projects Row -->
         <div class="row" height="80%">
 
-            <div class="col-lg-12">
+            <!-- <div class="col-lg-12">
                 <h3 class="page-header">Media</h3>
+            </div> -->
+            <div class="col-sm-3 col-xs-6">
+                <figure class="imghvr-fade">
+                    <img src="img/live.png">
+                        <figcaption>
+                            Tour
+                        </figcaption>
+                <a href="tour.html"></a>
+            </figure>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <figure class="imghvr-fade">
+                    <img src="img/fullheal_resized2.png">
+                        <figcaption>
+                            Full Heal
+                        </figcaption>
+                <a href="index.html"></a>
+            </figure>
             </div>
             
             <div class="col-sm-3 col-xs-6">
@@ -164,27 +171,6 @@
                 <a href="videos.html"></a>
             </figure>
             </div>
-
-           <div class="col-sm-3 col-xs-6">
-                <figure class="imghvr-fade">
-                    <img src="img/rnh3.jpg">
-                        <figcaption>
-                            Robot Needs Home
-                        </figcaption>
-                <a href="http://www.robotneedshome.com/"></a>
-            </figure>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <figure class="imghvr-fade">
-                    <img src="img/space_man2.jpg">
-                        <figcaption>
-                            Store
-                        </figcaption>
-                <a href="http://wakingaida.bandcamp.com/merch"></a>
-            </figure>
-            </div>
-
         </div>
         <!-- /.row -->
 
@@ -193,15 +179,20 @@
         <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-lg-12">
-                    <p>
+                <div class="col-lg-12" style="color: #FFF">
+                    <p style="color: #FFF">
                     <h5>Contact Us</h5>
-                    <a href="mailto:john@robotneedshome.com">John Helps</a><br>
-                    Label: <a href="http://www.robotneedshome.com">Robot Needs Home</a><br>
-                    Band: <a href="mailto:wakingaida@live.co.uk">wakingaida [at] live.co.uk</a><br>
+                    <a style="color: #FF9E22"
+                    href="mailto:john@robotneedshome.com">John Helps</a><br>
+                    Label: 
+                    <a style="color: #FF9E22"
+                    href="http://www.robotneedshome.com">Robot Needs Home</a><br>
+                    Band: 
+                    <a style="color: #FF9E22"
+                    href="mailto:wakingaida@live.co.uk">wakingaida [at] live.co.uk</a><br>
                     </p>
                     
-                    <p>Copyright &copy; Waking Aida 2016</p>
+                    <p style="color: #FFF">Copyright &copy; Waking Aida 2016</p>
 
                 </div>
             </div>
