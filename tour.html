@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>Waking Aida</title>
-    <link rel="shortcut icon" href="img/favicon-fh.png">
+    <link rel="shortcut icon" href="img/shoal_favicon.png">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,20 @@
 
 </head>
 
-<body>
+<body style="background-image: url('img/shoal.JPG');">
+
+    <style type="text/css">
+    @font-face {
+        font-family: "My Custom Font";
+        src: url(fonts/moonflowerbold.ttf) format("truetype");
+    }
+    p.customfont { 
+        font-family: "My Custom Font", Verdana, Tahoma;
+        text-align: center;
+        font-size: 40px;
+        color:  #003A6B;
+    }
+    </style>
 
     <!-- Page Content -->
     <div class="container">
@@ -43,9 +56,14 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
                     <a href="#">
-                    <img class="img-responsive" align="center" 
-                    src="img/banner_grab.png" width="100%">                        
-                    </img></a> 
+                    <p class="customfont" style="font-size: 100px; text-align: center; color:#3F3F3F;">
+                    <!-- Waking Aida<br> -->
+                    Waking Aida
+                    </p> 
+                    <!-- <img class="img-responsive" align="center"  -->
+                    <!-- src="img/banner_grab.png" width="100%">                         -->
+                    <!-- </img></a>  -->
+                    <p class="customfont" 
                     <h1 style="text-align: center; color:#3F3F3F;">UK Tour 2017</h1><br>
                     <p>
 
@@ -60,7 +78,7 @@
             <div class="col-md-5">
                     <a href="#">
                     <img class="img-responsive" align="center" 
-                    src="img/april_tour_a4_poster.jpg" width="100%">                        
+                    src="img/tour_poster_2017_betts.png" width="100%">                        
                     </img></a>
                     <br>
             </div>
@@ -68,7 +86,7 @@
             <div class="col-md-5">
                     We're delighted to be heading out on tour with the wonderful 
                     <a style="font-weight: bold;" 
-                    href="https://www.youtube.com/watch?v=IgPfWNukaLI">Orchards</a>
+                    href="https://www.youtube.com/watch?v=Qgh7gc3x4tM">Adam Betts</a>
                     in April.
                     <br><br>
                     These are our first headline shows in over a year now and we 
@@ -106,23 +124,21 @@
                     <a style="font-weight: bold;" 
                     href="http://www.robotneedshome.com">robotneedshome.com</a><br>
                     <a style="font-weight: bold;"
-                    href="https://orchardslive.bandcamp.com/">orchardslive.bandcamp.com</a>
+                    href="https://www.adambettsdrums.com//">adambettsdrums.com</a>
                     <br><br><br>
                     <!-- Begin MailChimp Signup Form -->
                     <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
                     <style type="text/css">
-                        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                        #mc_embed_signup{background: none; clear:left; font:14px Helvetica,Arial,sans-serif; }
                     </style>
                     <div id="mc_embed_signup">
                     <form action="//wakingaida.us8.list-manage.com/subscribe/post?u=02e8b080b864afe5dc5a018ab&amp;id=830f4cceff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div id="mc_embed_signup_scroll">
                     <label style="font-size: 18px" 
                     for="mce-EMAIL">Subscribe to our mailing list:</label>
-                    2017 is going to be an exciting year for us,
+                    <br>2017 is going to be an exciting year for us,
                     so subscribe to our new mailing list and stay in the loop.
                     <br><br>
-                    To start with, you'll get an exclusive download of a beautiful 
-                    'Incandenza' remix.<br><br>
                     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required><br>
                     <div style="position: absolute; left: -5000px;"
                     width="80%" aria-hidden="true"><input type="text" name="b_02e8b080b864afe5dc5a018ab_830f4cceff" tabindex="-1" value=""></div>
@@ -184,7 +200,7 @@
         <!-- /.row -->
          <div class="row">
 
-            <h3 class="page-header">Listen</h3>
+            <h3 class="page-header" style="color:#FFF;">Listen</h3>
 
             <div class="col-sm-6">
             <!--iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=895886421/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://wakingaida.bandcamp.com/album/full-heal">Full Heal by Waking Aida</a></iframe-->
@@ -211,7 +227,18 @@
         <div class="row" height="80%">
 
             <div class="col-lg-12">
-                <h3 class="page-header">Media</h3>
+                <h3 class="page-header"
+                style="color:#FFF;">Media</h3>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <figure class="imghvr-fade">
+                    <img src="img/shoal.jpg">
+                        <figcaption>
+                            Shoal
+                        </figcaption>
+                <a href="index.html"></a>
+            </figure>
             </div>
 
             <div class="col-sm-3 col-xs-6">
@@ -220,7 +247,7 @@
                         <figcaption>
                             Full Heal
                         </figcaption>
-                <a href="index.html"></a>
+                <a href="fullheal.html"></a>
             </figure>
             </div>
             
@@ -244,16 +271,6 @@
             </figure>
             </div>
 
-            <div class="col-sm-3 col-xs-6">
-                <figure class="imghvr-fade">
-                    <img src="img/space_man2.jpg">
-                        <figcaption>
-                            Store
-                        </figcaption>
-                <a href="http://wakingaida.bandcamp.com/merch"></a>
-            </figure>
-            </div>
-
         </div>
         <!-- /.row -->
 
@@ -262,15 +279,21 @@
         <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-lg-12">
-                    <p>
+                <div class="col-lg-12" style="color: #FFF">
+                    <p style="color: #FFF">
                     <h5>Contact Us</h5>
-                    <a href="mailto:john@robotneedshome.com">John Helps</a><br>
-                    Label: <a href="http://www.robotneedshome.com">Robot Needs Home</a><br>
-                    Band: <a href="mailto:wakingaida@live.co.uk">wakingaida [at] live.co.uk</a><br>
+                    Manager:
+                    <a style="color: #FF9E22"
+                    href="mailto:john@robotneedshome.com">John Helps</a><br>
+                    Label: 
+                    <a style="color: #FF9E22"
+                    href="http://www.robotneedshome.com">Robot Needs Home</a><br>
+                    Band: 
+                    <a style="color: #FF9E22"
+                    href="mailto:wakingaida@live.co.uk">wakingaida [at] live.co.uk</a><br>
                     </p>
                     
-                    <p>Copyright &copy; Waking Aida 2016</p>
+                    <p style="color: #FFF">Copyright &copy; Waking Aida 2016</p>
 
                 </div>
             </div>
